@@ -1,0 +1,63 @@
+.container {
+    background-color: salmon;
+    margin: 0;
+}
+
+.hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid BLACK;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.text {
+    color: BLACK;
+    font-weight: 600;
+    font-size: large;
+}
+
+.headline {
+    font-size: 64px;
+    color: white;
+    text-shadow: #000 0px 2px 12px;
+}
+
+.content {
+    padding: 20px;
+    margin: 10px 20px 10px 20px;
+    background-color: rgba(159, 207, 218, 0.70);
+    box-shadow: 2px 2px 2px 1px darkslateblue;
+    border-radius: 15px;
+    font-size: large;
+}
+
+.content > p {
+    margin-bottom: 40px;
+}
+
+.paraHeading {
+    text-align: right;
+    padding-right: 30px;
+    font-size: xx-large;
+    color: #2C245B;
+
+    text-shadow: #000 1px 1px 4px;
+}
+
+.bigImage {
+    display: flex;
+
+    height: 100vh;
+    background-image: url("/img/bloons.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 2px 2px 2px 1px BLACK;
+}
